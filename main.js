@@ -10,6 +10,7 @@ function validate() {
     } else {
     message.innerText = '* passwords match';
     message.style.color = 'green';
+    message.style.display = 'block';
     confirmPass.className = 'pass';
     }
 }
